@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 import About from "./components/about";
-import Indice from "./components/indice";
+import Taxes from "./components/taxes";
 function App() {
   
 const [counter,setCounter]=useState(0);
@@ -43,7 +43,7 @@ const decrementCounter=()=>
     <br />
     {message}
     <br></br>
-    <Indice></Indice>
+    <Taxes></Taxes>
     </div>
     <div class="col">
       
